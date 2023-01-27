@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #f5fcff;
+  position: relative;
+}
+.sun-position {
+  position: absolute;
+  right: 0px;
+  top: 0;
+}
+.sun-position:hover {
+  background: #f6872c;
+  border-radius: 35px;
+}
+.title-cloud {
+  position: absolute;
+  top: 50px;
+  height: 200px;
+  width: 100%;
+  background-image: url(cloud.png);
+  background-repeat: repeat-x;
+  background-position: right, left;
+  background-size: auto 200px;
+  z-index: 1;
+}
+.img-deer {
+  position: absolute;
+  height: 500px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -250px;
+  z-index: 2;
+}
+.bottom-grass {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  background-image: url(grass.png);
+  background-repeat: repeat-x bottom;
+  background-size: auto 150px;
+  bottom: 0;
+  z-index: 3;
+}
